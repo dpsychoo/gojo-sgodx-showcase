@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070911">
+  <meta name="description" content="A creative frontend case study for Gojo SGODX, an unofficial five-scene cinematic fan experience.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gojo SGODX — Creative Frontend Case Study">
+  <meta property="og:description" content="A cinematic, interactive fan experience shaped around Satoru Gojo. Presentation-only case study by SGODX.">
+  <meta property="og:image" content="https://dpsychoo.github.io/gojo-sgodx-showcase/assets/cover.svg">
+  <meta property="og:url" content="https://dpsychoo.github.io/gojo-sgodx-showcase/">
+  <title>Gojo SGODX — Creative Frontend Case Study</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://github.com">
+  <style>
+    :root{color-scheme:dark;--bg:#070911;--panel:#0d1120;--ink:#f3f6ff;--muted:#9aa7c2;--blue:#83ddff;--violet:#a67aff;--line:rgba(171,195,255,.15);--max:1180px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 78% 8%,rgba(51,72,167,.19),transparent 40rem),var(--bg);color:var(--ink);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:inherit}a:focus-visible{outline:2px solid var(--blue);outline-offset:4px;border-radius:3px}.wrap{width:min(var(--max),calc(100% - 48px));margin-inline:auto}.topbar{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);font-size:.8rem;letter-spacing:.15em;text-transform:uppercase}.brand{font-weight:750}.brand span{color:var(--blue)}.nav{display:flex;gap:24px;color:var(--muted);letter-spacing:.04em;text-transform:none}.nav a{text-decoration:none}.nav a:hover{color:var(--ink)}.hero{min-height:670px;display:grid;grid-template-columns:.92fr 1.08fr;align-items:center;gap:30px;padding:58px 0 76px}.eyebrow{color:var(--blue);font-size:.75rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}.hero h1{max-width:650px;margin:18px 0 20px;font-size:clamp(3.6rem,9vw,7rem);line-height:.91;letter-spacing:-.075em}.hero h1 span{display:block;color:transparent;background:linear-gradient(100deg,#a8ecff 3%,#778eff 52%,#c39cff);background-clip:text}.lead{max-width:510px;color:#c3cbe0;font-size:1.1rem}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.button{display:inline-flex;min-height:48px;align-items:center;justify-content:center;padding:0 18px;border:1px solid rgba(144,200,255,.45);border-radius:4px;background:linear-gradient(120deg,rgba(64,134,255,.18),rgba(159,93,255,.12));font-size:.84rem;font-weight:700;text-decoration:none}.button.secondary{background:transparent;border-color:var(--line);color:#c5cee3}.button:hover{border-color:var(--blue);transform:translateY(-1px)}.cover{width:100%;display:block;border:1px solid var(--line);border-radius:7px;box-shadow:0 28px 110px rgba(36,57,153,.21)}.cover-note{margin:10px 3px 0;color:var(--muted);font-size:.76rem}.section{padding:86px 0;border-top:1px solid var(--line)}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:34px}.kicker{color:var(--violet);font-size:.72rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase}.section h2{margin:8px 0 0;font-size:clamp(2rem,4vw,3.3rem);line-height:1.05;letter-spacing:-.045em}.section-intro{max-width:570px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{padding:23px;border:1px solid var(--line);border-radius:5px;background:linear-gradient(145deg,rgba(22,28,49,.85),rgba(10,13,23,.7))}.card-index{color:var(--blue);font-size:.72rem;letter-spacing:.16em}.card h3{margin:15px 0 7px;font-size:1.08rem}.card p{margin:0;color:var(--muted);font-size:.91rem}.stack{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.tag{padding:7px 11px;border:1px solid var(--line);border-radius:99px;color:#d4dcf0;font-size:.8rem}.preview-note{padding:24px;border-left:2px solid var(--violet);background:rgba(122,105,206,.07);color:#c6cde0}.preview-note strong{display:block;color:var(--ink);margin-bottom:5px}.credits{max-width:820px;color:var(--muted)}.credits strong{color:#e6ebf8}.footer{padding:28px 0 38px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:24px;color:var(--muted);font-size:.82rem}.footer a{color:#dbe5ff}.sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    @media(max-width:800px){.hero{min-height:auto;grid-template-columns:1fr;padding:64px 0 72px}.hero-copy{order:0}.hero-art{order:1}.hero h1{font-size:clamp(3.5rem,16vw,6.2rem)}.grid{grid-template-columns:1fr 1fr}.section{padding:66px 0}.section-head{display:block}.section-intro{margin-top:14px}.nav{gap:13px}}
+    @media(max-width:520px){.wrap{width:min(var(--max),calc(100% - 32px))}.topbar{height:65px}.nav a:first-child{display:none}.nav{font-size:.76rem}.hero{padding-top:48px}.lead{font-size:1rem}.actions .button{flex:1}.grid{grid-template-columns:1fr}.card{padding:20px}.footer{display:block}.footer>*{display:block;margin:6px 0}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+  <header class="wrap topbar">
+    <a class="brand" href="#top" aria-label="SGODX case study home">SGO<span>DX</span></a>
+    <nav class="nav" aria-label="Main navigation"><a href="#experience">Experience</a><a href="#engineering">Engineering</a><a href="#credits">Credits</a><a href="https://github.com/dpsychoo">dpsychoo ↗</a></nav>
+  </header>
+  <main id="top">
+    <section class="wrap hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Creative frontend / case study 01</p>
+        <h1 id="hero-title">GOJO <span>SGODX</span></h1>
+        <p class="lead">A cinematic, interactive fan experience shaped around Satoru Gojo. Five scenes, motion-led transitions, and a responsive visual system.</p>
+        <div class="actions"><a class="button" href="https://gojo-sgodx.vercel.app/">Enter live experience ↗</a><a class="button secondary" href="https://github.com/dpsychoo">SGODX / dpsychoo ↗</a></div>
+      </div>
+      <div class="hero-art"><img class="cover" src="assets/cover.svg" alt="Original abstract blue-violet case-study cover, not a screenshot of the Gojo application"><p class="cover-note">Original abstract cover artwork · no production screenshot or third-party media included</p></div>
+    </section>
+    <section class="section" id="experience"><div class="wrap">
+      <div class="section-head"><div><p class="kicker">The experience</p><h2>Five scenes. One fluid journey.</h2></div><p class="section-intro">A fan experience presented as a sequence, with scene navigation and a carefully layered motion language. The production experience is hosted separately on Vercel.</p></div>
+      <div class="grid">
+        <article class="card"><span class="card-index">01 / MOTION</span><h3>Cinematic entry</h3><p>A branded preloader leads into coordinated scene-entry animation, with a fallback path if the motion library is unavailable.</p></article>
+        <article class="card"><span class="card-index">02 / INTERACTION</span><h3>Scene navigation</h3><p>Next, previous, and direct scene controls keep the five-scene experience navigable across desktop and touch layouts.</p></article>
+        <article class="card"><span class="card-index">03 / VISUALS</span><h3>Realtime effects</h3><p>A Six Eyes pointer treatment and interactive Limitless and Six Eyes cards add responsive visual feedback.</p></article>
+      </div>
+    </div></section>
+    <section class="section" id="engineering"><div class="wrap">
+      <div class="section-head"><div><p class="kicker">Creative engineering</p><h2>Browser-native foundations.</h2></div><p class="section-intro">The production experience combines direct browser APIs with a focused motion dependency. This case study page remains dependency-free.</p></div>
+      <div class="grid"><article class="card"><span class="card-index">INTERFACE</span><h3>HTML · CSS · JavaScript</h3><p>Responsive layout and scene interactions use browser-native foundations.</p></article><article class="card"><span class="card-index">MOTION + RENDERING</span><h3>GSAP · Canvas · WebGL · GLSL</h3><p>Timeline-driven transitions and realtime pointer visuals are part of the deployed experience.</p></article><article class="card"><span class="card-index">MEDIA + QA</span><h3>WebP · H.264 · Playwright</h3><p>Optimized image and silent video variants, with browser tests in the private source project.</p></article></div>
+      <div class="stack" aria-label="Verified technologies"><span class="tag">GSAP 3.15.0</span><span class="tag">Web Audio API</span><span class="tag">Playwright Test 1.64.1</span><span class="tag">Responsive UI</span><span class="tag">Reduced motion</span></div>
+    </div></section>
+    <section class="section" id="preview"><div class="wrap">
+      <div class="section-head"><div><p class="kicker">Visual preview</p><h2>Rights-conscious presentation.</h2></div></div>
+      <div class="preview-note"><strong>Application screenshots are withheld for now.</strong>Private desktop and mobile captures were reviewed, but they show Jujutsu Kaisen imagery and video whose redistribution permissions have not been confirmed. This page uses original abstract artwork and does not present it as a product capture. See the <a href="https://github.com/dpsychoo/gojo-sgodx-showcase/blob/main/assets/screenshots/README.md">capture inventory</a> for the release condition.</div>
+    </div></section>
+    <section class="section" id="credits"><div class="wrap">
+      <div class="section-head"><div><p class="kicker">Credits &amp; scope</p><h2>An independent fan project.</h2></div></div>
+      <p class="credits"><strong>Satoru Gojo and Jujutsu Kaisen belong to their respective rights holders.</strong> This project is unofficial and is not affiliated with, sponsored by, or endorsed by them. The live experience adapts a pre-existing HTML base whose author, source repository, and redistribution terms remain unverified. SGODX's customizations are presented transparently; no claim is made to own the inherited base or third-party media. The production implementation and uncleared media are not included here. Read the full <a href="https://github.com/dpsychoo/gojo-sgodx-showcase/blob/main/NOTICE.md">notice</a>.</p>
+      <p class="credits">Created and customized for the SGODX portfolio by <a href="https://github.com/dpsychoo">David Castro / dpsychoo</a>.</p>
+    </div></section>
+  </main>
+  <footer class="wrap footer"><span>SGODX · Creative frontend case study</span><span><a href="https://gojo-sgodx.vercel.app/">Live experience</a> · <a href="https://github.com/dpsychoo">GitHub profile</a> · <a href="https://github.com/dpsychoo/gojo-sgodx-showcase">Repository README</a></span></footer>
+</body>
+</html>

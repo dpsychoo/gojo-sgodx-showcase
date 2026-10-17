@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">SGODX abstract blue-violet showcase cover</title>
+  <desc id="desc">Original abstract rings and luminous blue-violet forms, made for this case study. Not an application screenshot or character depiction.</desc>
+  <defs>
+    <radialGradient id="bg" cx="68%" cy="43%" r="82%">
+      <stop offset="0" stop-color="#121a35"/>
+      <stop offset=".56" stop-color="#080b16"/>
+      <stop offset="1" stop-color="#04050a"/>
+    </radialGradient>
+    <radialGradient id="orb" cx="40%" cy="35%" r="68%">
+      <stop offset="0" stop-color="#d9f6ff" stop-opacity=".95"/>
+      <stop offset=".18" stop-color="#69caff" stop-opacity=".88"/>
+      <stop offset=".46" stop-color="#506cff" stop-opacity=".56"/>
+      <stop offset=".76" stop-color="#a440ff" stop-opacity=".23"/>
+      <stop offset="1" stop-color="#5d4dff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#83eaff" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#93dfff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#ac61ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="25"/></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0V54" fill="none" stroke="#a9c5ff" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <ellipse cx="1105" cy="442" rx="365" ry="285" fill="#295cff" opacity=".16" filter="url(#blur)"/>
+  <circle cx="1125" cy="446" r="254" fill="url(#orb)" opacity=".82"/>
+  <g fill="none" stroke-linecap="round" transform="translate(1125 446)" filter="url(#glow)">
+    <circle r="299" stroke="#9bbdff" stroke-opacity=".16" stroke-width="1.5"/>
+    <circle r="250" stroke="#7bddff" stroke-opacity=".62" stroke-width="1.5" stroke-dasharray="165 48 45 102"/>
+    <circle r="205" stroke="#ae78ff" stroke-opacity=".56" stroke-width="2" stroke-dasharray="2 11"/>
+    <circle r="154" stroke="#b4ebff" stroke-opacity=".63" stroke-width="1.5"/>
+    <circle r="102" stroke="#b080ff" stroke-opacity=".68" stroke-width="1.5" stroke-dasharray="88 22 16 51"/>
+    <path d="M-348 0H-76M76 0H348M0-348V-78M0 78V348" stroke="url(#line)" stroke-width="1.5" opacity=".75"/>
+  </g>
+  <g fill="#d6f8ff" opacity=".85">
+    <circle cx="1390" cy="227" r="2"/><circle cx="819" cy="277" r="1.5"/><circle cx="1344" cy="699" r="2"/><circle cx="1013" cy="764" r="1.4"/><circle cx="1523" cy="508" r="1.3"/>
+  </g>
+  <path d="M0 755C212 663 405 813 603 705" fill="none" stroke="#8a77ff" stroke-opacity=".16" stroke-width="2"/>
+  <path d="M0 782C228 684 409 837 646 715" fill="none" stroke="#69dfff" stroke-opacity=".13" stroke-width="1"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#f4f7ff">
+    <text x="112" y="112" font-size="16" letter-spacing="7" fill="#99bcff">SGODX / CREATIVE FRONTEND</text>
+    <text x="108" y="448" font-size="94" font-weight="700" letter-spacing="-5">GOJO</text>
+    <text x="112" y="503" font-size="18" letter-spacing="5" fill="#aebbd5">CINEMATIC FAN EXPERIENCE</text>
+    <path d="M112 548H435" stroke="#8acfff" stroke-opacity=".72"/>
+    <text x="112" y="590" font-size="13" letter-spacing="3" fill="#8694b1">ABSTRACT CASE-STUDY COVER · NOT AN APP SCREENSHOT</text>
+  </g>
+</svg>
