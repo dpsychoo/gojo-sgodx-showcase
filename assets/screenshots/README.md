@@ -1,7 +1,7 @@
 # Screenshot inventory
 
-No production screenshots are distributed in this repository. Desktop and mobile captures were reviewed privately, but the visible Jujutsu Kaisen imagery and video do not have confirmed redistribution permissions. They are therefore withheld rather than cropped, altered, or represented by mockups.
+This repository includes one owner-approved Gojo/SGODX cover at ../../docs/assets/cover.webp. The cover contains Jujutsu Kaisen imagery; approval for this showcase does not establish blanket rights to the underlying material. Separate desktop and mobile browser captures remain excluded while their redistribution permissions are unresolved.
 
-The [cover illustration](../../docs/assets/cover.svg) is original abstract artwork made for this case study. It is not a capture of the Gojo application.
+The cover is supplied for this portfolio showcase and is not a general media clearance.
 
 Screenshots may be added after the depicted content and the capture itself are cleared for public redistribution. Any future capture should record its date, viewport, URL, and review/cropping notes here.

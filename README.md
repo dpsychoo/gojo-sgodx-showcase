@@ -8,9 +8,9 @@
 
 [Open the live experience](https://gojo-sgodx.vercel.app/) · [View the case study](https://dpsychoo.github.io/gojo-sgodx-showcase/) · [SGODX / dpsychoo](https://github.com/dpsychoo)
 
-<img src="docs/assets/cover.svg" alt="Original abstract blue-violet cover artwork for this case study; not a screenshot of the application" width="820" />
+<img src="docs/assets/cover.webp" alt="Owner-approved Gojo showcase cover featuring Satoru Gojo and SGODX" width="820" />
 
-<sub>Presentation-only repository · Production implementation and unverified media are not included</sub>
+<sub>Presentation-only repository | owner-approved cover included; other unverified media not included</sub>
 
 </div>
 
@@ -18,7 +18,7 @@
 
 Gojo SGODX is an unofficial, five-scene browser experience inspired by Satoru Gojo and the visual language of *Jujutsu Kaisen*. It combines cinematic scene changes with custom interaction and motion work. The live project is an adaptation of a pre-existing HTML experience; its original author and source repository have not been verified. SGODX's documented contribution is the subsequent customization and technical work, not authorship of the entire inherited base.
 
-This repository is a public portfolio case study. It contains no production source, private project files, shaders, character images, video, or production screenshots.
+This repository is a public portfolio case study. It contains no production source, private project files, or shaders. One owner-approved Gojo cover image is included for this showcase; other production media and browser captures remain excluded while their underlying media permissions are unresolved.
 
 ## 2. Live demo
 
@@ -28,7 +28,7 @@ The demo is hosted separately. The live site's availability and contents are con
 
 ## 3. Visual preview
 
-The cover above is original abstract artwork created for this case study. It is deliberately not presented as an application capture. Real desktop and mobile captures were reviewed privately but are withheld because redistribution permission for the Jujutsu Kaisen imagery and video shown in them has not been confirmed. See the [screenshot inventory](assets/screenshots/README.md).
+The cover above is an owner-approved visual from the Gojo experience, supplied for this portfolio showcase. Its inclusion does not grant rights to any underlying Jujutsu Kaisen imagery. Separate desktop and mobile captures remain excluded while their redistribution permissions are unresolved. See the [screenshot inventory](assets/screenshots/README.md).
 
 ## 4. Key features
 

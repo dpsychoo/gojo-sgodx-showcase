@@ -36,6 +36,7 @@ recovery/
 *.jpg
 *.jpeg
 *.webp
+!docs/assets/cover.webp
 *.mov
 *.mp3
 *.wav

@@ -29,7 +29,7 @@ External typefaces use Google Fonts CSS and the production notices record their 
 
 ## Scope and implementation ownership
 
-The production project includes SGODX customizations and technical improvements, including scene interaction, optimized media variants, fallbacks, accessibility controls, and test coverage. It also retains an inherited base and third-party material whose complete chain of rights has not been established. The public case study therefore does not contain production code, the cursor implementation, Jujutsu Kaisen media, or production screenshots.
+The production project includes SGODX customizations and technical improvements, including scene interaction, optimized media variants, fallbacks, accessibility controls, and test coverage. It also retains an inherited base and third-party material whose complete chain of rights has not been established. The public case study does not contain production code or separate media assets. It includes one owner-approved Gojo/SGODX cover; other production captures are excluded.
 
 The separately hosted demo can be explored at <https://gojo-sgodx.vercel.app/>. A link does not grant permission to copy or redistribute the demo's contents.
 
@@ -40,6 +40,6 @@ The source project has a Playwright suite for the five-scene experience, respons
 ## Distribution notes
 
 - No production source or private backup is included.
-- No screenshot is distributed while its depicted artwork and footage remain uncleared.
-- The case-study cover is original abstract SVG artwork, not an application capture.
+- No additional production captures are distributed while their depicted artwork and footage remain uncleared.
+- The owner-approved Gojo/SGODX cover is included as a WebP visual; separate production media assets are not bundled.
 - See [NOTICE.md](../NOTICE.md) for fan-work and reuse notices.
